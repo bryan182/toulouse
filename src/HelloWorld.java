@@ -2,12 +2,12 @@ public class HelloWorld {
 public static void main(String[] args) {
 
 	HelloWorld hello = new HelloWorld();
-	System.out.println(hello.sayHello());
+	hello.sayHello();
 }
 
-public String sayHello()
+public void sayHello()
 {
-	return "Hello World";
+	System.out.println("Hello World");
 }
 
-}
+//test22
